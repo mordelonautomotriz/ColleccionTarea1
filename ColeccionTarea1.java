@@ -48,11 +48,7 @@ ListaComponentesProyecto_MonitorBateria.remove("\n\tCables");
 ListaComponentesProyecto_MonitorBateria.remove("\n\tProtoboard");
 ListaComponentesProyecto_MonitorBateria.remove("\n\t1 conector de tornillo de 3 pines \n");
         
- System.out.println("\nNumero de elementos despues de ser eliminados:\n\n\tResistencias, "
-                + "trimmers, condensadores eletroliticos"
-                + "\n\tdiodos, leds, regulador, circuito integrado,"
-                + "\n\tbase para el integrado, conector de tornillo de 3 pines"
-                + "\n\tcables, protoboard \n\n\t: "+ ListaComponentesProyecto_MonitorBateria.size());
+ System.out.println("\nNumero de elementos despues de ser eliminados: "+ ListaComponentesProyecto_MonitorBateria.size());
         
         System.out.println("\nLOS COMPONENTES DEL PROYECTO QUE NOS QUEDAN SON: \n");
         System.out.println(ListaComponentesProyecto_MonitorBateria.toString());} 
